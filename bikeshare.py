@@ -58,7 +58,7 @@ def load_data(city: str, month: str, day: str) -> pd.DataFrame:
    df["Start Time"] = pd.to_datetime(df["Start Time"])
    # Filter by month if applicable.
    MONTHS = {
-    "january": 1,
+    "january": 1, 
     "february": 2,
      "march": 3,
      "april": 4,
